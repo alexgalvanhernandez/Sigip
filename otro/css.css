@@ -1,0 +1,26 @@
+html,body{
+height:100%;
+}
+ 
+#page-wrap{
+
+margin: auto;
+height: auto;
+min-height:100%;
+
+background: black
+}
+ 
+#page-wrap:after{
+width: 100%;
+height:150px;
+display:block;
+clear:both;
+}
+ 
+#footer{
+width: 960px;
+height: 150px;
+margin: -150px auto 0;
+background: blue;
+}
