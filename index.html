@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/style.css"/>
 	<script type="text/javascript" src="js/ahorcado.js"></script>
 
+
 </head>
 <body>
 			<!--[if lt IE 7]>
@@ -22,7 +23,7 @@
 				
 			</div>
 			<div class="titular absolute" >
-				<h1 class="titulo">DIGIP</h1>
+				<h1 class="titulo">SIGIP</h1>
 			</div>
 			<div class="logo2 absolute">
 				<a href="http://www.itcolima.edu.mx/">
@@ -37,12 +38,12 @@
 			
 			
 		</header>
-		<nav class="relative">
+		<nav class="relative" id="menucito"><a href="#" class="icon-uniE617" id="icon-uniE617" >  SIGIP</a>	
 			<ul class="menu">
-				<li ><a href="#">Mis proyectos</a></li>
-				<li ><a href="#">Alumnos</a></li>
-				<li ><a href="#">Visualizar</a></li>
-				<li ><a class="user" href="#">Proyectos actuales</a></li>
+				<li ><a  class="icon-play-install"href="#"> Mis proyectos</a></li>
+				<li ><a class="icon-assignment-turned-in" href="#"> Proyectos</a></li>
+				<li ><a class="icon-users2" href="#"> Alumnos</a></li>
+				<li ><a class="icon-user2" href="#"> Alejandro Galvan</a></li>
 			</ul>
 		</nav>
 		<div class="contenido">
@@ -59,7 +60,7 @@
 	<footer>
 			<h3 class="powered">
 				<strong>Instituto Tecnologico de Colima</strong>
-				<span class="pie">DIGIP 2014</span>
+				<span class="pie">Sistema Gestor de Proyectos Integradores 2014</span>
 
 			</h3>
 	</footer>
@@ -67,6 +68,25 @@
 	<script type="text/javascript">
 		iniciar();
 	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+    $(function() {
+
+        var btn_movil = $('#icon-uniE617'),
+            menu = $('#menucito').find('ul');
+
+        // Al dar click agregar/quitar clases que permiten el despliegue del menú
+        btn_movil.on('click', function (e) {
+            e.preventDefault();
+
+            var el = $(this);
+
+            el.toggleClass('nav-active');
+            menu.toggleClass('open-menu');
+        })
+
+    });
+</script>
 
 
 
