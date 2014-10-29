@@ -1,0 +1,515 @@
+/* normalize.css v3.0.0 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+@font-face {
+  font-family: 'digip';
+  src: url("../fonts/digip.eot?pzr9e1");
+  src: url("../fonts/digip.eot?#iefixpzr9e1") format('embedded-opentype'), url("../fonts/digip.woff?pzr9e1") format('woff'), url("../fonts/digip.ttf?pzr9e1") format('truetype'), url("../fonts/digip.svg?pzr9e1#digip") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'digip';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+/* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-uniE617:before {
+  content: "\e617";
+}
+.icon-users:before {
+  content: "\e60c";
+}
+.icon-user:before {
+  content: "\e60a";
+}
+.icon-user2:before {
+  content: "\e60b";
+}
+.icon-OK:before {
+  content: "\e600";
+}
+.icon-book:before {
+  content: "\e60d";
+}
+.icon-users2:before {
+  content: "\e60e";
+}
+.icon-user3:before {
+  content: "\e601";
+}
+.icon-users3:before {
+  content: "\e60f";
+}
+.icon-user4:before {
+  content: "\e610";
+}
+.icon-share:before {
+  content: "\e602";
+}
+.icon-atom:before {
+  content: "\e603";
+}
+.icon-syringe:before {
+  content: "\e604";
+}
+.icon-health:before {
+  content: "\e605";
+}
+.icon-lab:before {
+  content: "\e606";
+}
+.icon-clipboard:before {
+  content: "\e607";
+}
+.icon-graph:before {
+  content: "\e608";
+}
+.icon-bars:before {
+  content: "\e611";
+}
+.icon-account-circle:before {
+  content: "\e612";
+}
+.icon-assignment-turned-in:before {
+  content: "\e609";
+}
+.icon-search:before {
+  content: "\e618";
+}
+.icon-create:before {
+  content: "\e619";
+}
+.icon-border-color:before {
+  content: "\e61a";
+}
+.icon-play-install:before {
+  content: "\e613";
+}
+.icon-group:before {
+  content: "\e614";
+}
+.icon-people:before {
+  content: "\e615";
+}
+.icon-people-outline:before {
+  content: "\e616";
+}
+.icon-school:before {
+  content: "\e61b";
+}
+@font-face {
+  font-family: 'soberana';
+  src: url("../fonts/soberanasans-regular-webfont.eot");
+  src: url("../fonts/soberanasans-regular-webfont.eot?#iefix") format('embedded-opentype'), url("../fonts/soberanasans-regular-webfont.woff2") format('woff2'), url("../fonts/soberanasans-regular-webfont.woff") format('woff'), url("../fonts/soberanasans-regular-webfont.ttf") format('truetype'), url("../fonts/soberanasans-regular-webfont.svg#soberana_sansregular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-size: 16px;
+  background: #fafafa;
+}
+body footer {
+  font-family: 'soberana';
+  background: #515151;
+  color: rgba(255,255,255,0.7);
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+}
+body footer h3 {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  padding: 1.3em;
+}
+body footer h3 strong {
+  display: block;
+  margin: 0;
+}
+.container {
+  margin: 16px auto 0;
+}
+.container a {
+  text-decoration: none;
+}
+.container figure {
+  margin: 0;
+}
+.container header {
+  font-family: 'soberana';
+  color: #404042;
+  overflow: hidden;
+}
+.container header .logo1 {
+  width: 280px;
+}
+.container header .logo1 a img {
+  height: 80px;
+  width: 272px;
+}
+.container header .logo2 {
+  top: 20px;
+  right: 50px;
+}
+.container header .logo2 a img {
+  height: 50px;
+  width: 53px;
+}
+.container header .titular {
+  margin: 0 150px 0 100px;
+  top: 25px;
+  left: 40%;
+}
+.container header .titular .titulo {
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+}
+.container .icon-uniE617 {
+  display: none;
+  color: #fff;
+  right: 1px;
+  font-size: 1.5em;
+  height: 60px;
+  opacity: 0.6;
+}
+.container .icon-uniE617 float right {
+  width: 60px;
+}
+.container .nav-active {
+  opacity: 1;
+}
+.container nav {
+  font-family: 'soberana';
+  background: #515151;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.3);
+  z-index: 1;
+  padding: 1px;
+}
+.container nav:before {
+  border-bottom: 20px solid transparent;
+  border-left: 7px solid #98979c;
+  border-top: 20px solid transparent;
+  content: "";
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+.container nav:after {
+  border-bottom: 20px solid transparent;
+  border-right: 7px solid #98979c;
+  border-top: 20px solid transparent;
+  content: "";
+  right: 0;
+  position: absolute;
+  top: 0;
+}
+.container nav .menu {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 3px;
+}
+.container nav .menu li {
+  display: inline-block;
+}
+.container nav .menu li a {
+  color: #fff;
+  background: #515151;
+  display: inline-block;
+  margin: 0 1em;
+  padding: 0.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+.container nav .menu li a:hover {
+  background: #2a2d33;
+}
+.container .canvas h2 {
+  color: #98979c;
+  font-family: Verdana;
+  font-size: 1.6em;
+  text-align: center;
+}
+.container .canvas .ca {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 800px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+@media screen and (max-width: 1136px) {
+  body .container nav a.icon-create,
+  body .container nav a.icon-search {
+    display: none;
+  }
+  :last-child .logo2,
+  border-bottom 0 .logo2,
+  a .logo2,
+  padding 15px 0 .logo2,
+  height auto .logo2,
+  line-height normal .logo2,
+  hover .logo2,
+  background #2a2d33 .logo2,
+  :last-child .logo1,
+  border-bottom 0 .logo1,
+  a .logo1,
+  padding 15px 0 .logo1,
+  height auto .logo1,
+  line-height normal .logo1,
+  hover .logo1,
+  background #2a2d33 .logo1 {
+    display: none;
+  }
+  :last-child #c,
+  border-bottom 0 #c,
+  a #c,
+  padding 15px 0 #c,
+  height auto #c,
+  line-height normal #c,
+  hover #c,
+  background #2a2d33 #c {
+    background: #515151 !important;
+  }
+}
+@media screen and (max-width: 1136px) and (max-width: 500px) {
+  header {
+    display: none;
+  }
+  .icon-uniE617 {
+    display: block !important;
+    position: absolute;
+    top: 0;
+    left: 40%;
+  }
+  .ca {
+    width: 230px !important;
+  }
+  canvas#c {
+    width: 250px;
+    height: 200px;
+  }
+  #menucito {
+    width: 100%;
+    float: none;
+    padding-top: 50px;
+  }
+  #menucito ul {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    max-height: 0;
+    overflow: hidden;
+  }
+  #menucito ul.open-menu {
+    max-height: 400px;
+    transition: max-height 0.4s;
+  }
+  #menucito ul {
+    background: #515151;
+    border-bottom: 1px solid #515151;
+    float: none;
+  }
+  #menucito ul li {
+    background: #515151;
+    border-bottom: 1px solid #515151;
+    float: none;
+  }
+}
+@media screen and (min-height: 650px) {
+  footer {
+    position: absolute;
+  }
+}

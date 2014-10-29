@@ -14,6 +14,7 @@ var Ahorcado = function(con)
 Ahorcado.prototype.dibujar = function ()
 {
 	var dibujo = this.contexto;
+	
 
 	//Dibujando el poste
 	dibujo.beginPath();
@@ -130,11 +131,9 @@ Ahorcado.prototype.trazar = function()
 function iniciar()
 {
 	var canvas = document.getElementById("c");
+
 	canvas.width = 500;
 	canvas.height = 400;
-	canvas.fillStyle= "#515151";
-	canvas.fillRect(0,0,150,75);
-
 	
 	var contexto = canvas.getContext("2d");
 	hombre = new Ahorcado(contexto);

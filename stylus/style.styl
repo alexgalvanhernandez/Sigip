@@ -5,6 +5,7 @@ gris-claro= #98979C
 negro= #262626
 grisclaro = #515151
 gris-nav=#666666
+titulo1=#262625
 
 
 
@@ -42,7 +43,7 @@ body
 	header
 		font-family 'soberana'
 		
-		color gris-claro
+		color #98979C
 		overflow hidden
 		.logo1
 			
@@ -144,11 +145,17 @@ body
 	
 	.canvas
 		h2
+			color #5a5a5a
+			font-family Verdana
+			font-size 1.6em
 			text-align center
 		.ca
 			margin-left auto !important
 			margin-right auto !important
-			width 500px
+			width 800px
+			canvas
+				border-radius 2em
+				box-shadow 5px 5px 5px rgba(0,0,0,0.5)
 			
 			
 
@@ -162,52 +169,84 @@ body
 .absolute
 	position absolute
 
+@media screen and (max-width:1136px)
+	body
+		.container
+			nav
+				a.icon-create,a.icon-search
+					display none
 
-@media screen and (min-height: 600px)
+	@media screen and (max-width: 1000px)
+		body
+			background red
+			.container
+				nav
+					.menu
+						li
+							a
+				            	padding 0	
+								padding-right 0  
+								padding-left 0 
+								padding.5em 
+								margin 0 
+						
+			.ca
+				width 230px !important
+				canvas#c
+					width 250px
+					height 200px
+				
+	
+		@media screen and (max-width: 500px)
+			header
+				display none
+			.icon-uniE617
+				display block !important
+				position absolute
+				top 0
+				left 40%
+			.ca
+				width 230px !important
+			canvas#c
+				width 250px
+				height 200px
+				
+			
+			#menucito
+				width 100%
+				float none
+				padding-top 50px
+				ul
+					box-shadow 0 1px 2px rgba(0,0,0,.5)
+					max-height 0
+					overflow hidden
+				ul.open-menu
+						max-height 400px
+						transition max-height .4s
+				ul
+					background #515151
+					border-bottom 1px solid #515151
+					float none
+
+					li
+						background #515151
+						border-bottom 1px solid #515151
+						float none
+		                &:last-child
+		                	border-bottom 0
+		            a
+		            	padding 15px 0
+		            	height auto
+		            	line-height normal
+		            	&hover
+		            		background #2a2d33
+
+			.logo2,.logo1
+				display none
+			#c
+				background #515151 !important
+			
+
+@media screen and (min-height: 650px)
 	footer
 		position absolute
-@media screen and (max-width: 500px)
-	header
-		display none
-	.icon-uniE617
-		display block !important
-		position absolute
-		top 0
-		left 40%
-
-
-	.ca
-		display none
-	
-	#menucito
-		width 100%
-		float none
-		padding-top 50px
-		ul
-			box-shadow 0 1px 2px rgba(0,0,0,.5)
-			max-height 0
-			overflow hidden
-		ul.open-menu
-				max-height 400px
-				transition max-height .4s
-		ul
-			background #515151
-			border-bottom 1px solid #515151
-			float none
-
-			li
-				background #515151
-				border-bottom 1px solid #515151
-				float none
-                &:last-child
-                	border-bottom 0
-            a
-            	padding 15px 0
-            	height auto
-            	line-height normal
-            	&hover
-            		background #2a2d33
-
-	.logo2,.logo1
-		display none
-		
