@@ -132,7 +132,9 @@ function iniciar()
 	var canvas = document.getElementById("c");
 	canvas.width = 500;
 	canvas.height = 400;
-	
+	canvas.fillStyle= "#515151";
+	canvas.fillRect(0,0,150,75);
+
 	
 	var contexto = canvas.getContext("2d");
 	hombre = new Ahorcado(contexto);
